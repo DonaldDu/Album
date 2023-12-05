@@ -41,6 +41,7 @@
             android:drawableLeft="@drawable/album_ic_photo_camera_white"
             android:drawableStart="@drawable/album_ic_photo_camera_white"
             android:gravity="center"
+            android:visibility="gone"
             android:text="@string/album_take_picture"
             android:textAllCaps="false"
             android:textColor="@color/album_White"/>

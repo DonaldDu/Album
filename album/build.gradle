@@ -26,5 +26,5 @@ dependencies {
     compile rootProject.ext.dependencies.mediascanner
     compile rootProject.ext.dependencies.loading
 }
-
-apply from: "../maven.gradle"
+mavenPublish("com.yanzhenjie:album:1.0.7.3")
+//apply from: "../maven.gradle"
